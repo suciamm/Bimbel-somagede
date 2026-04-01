@@ -1,0 +1,13 @@
+Alternatif sub domain dummy
+1. ngrok - bisa tapi limit gratisnya dikit
+ngrok http 8080
+2. localtunnel - bisa tapi harus input password (midtrans callbacknya bot) 
+// data = npm install -g localtunnel    ====> lt --port 8080 --subdomain bimbelsomagede
+3. cloudflare 
+brew install cloudflare/cloudflare/cloudflared
+cloudflared tunnel --url http://localhost:8080
+
+
+
+Running FROONTEND =
+// npx serve .
